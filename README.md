@@ -6,4 +6,4 @@ These are my interviews practice algos! ⌨️
 | ------------ | ---------------- |
 | Linked Lists | [⛓][linked-list] |
 
-[linked-list]: linked-list
+[linked-list]: linked-lists
