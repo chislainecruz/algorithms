@@ -66,3 +66,6 @@ const isValid = (s) => {
   //if we finished iterating and haven't return false, AND if the stack is empty, the string is balanced
   return stack.length === 0;
 };
+
+//O(n) space because we're creating a stack that could be as big as n/2
+//O(n) time because we're using a for loop to iterate through the entire string
