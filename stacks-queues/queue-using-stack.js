@@ -22,7 +22,7 @@ You may assume that all operations are valid (for example, no pop or peek operat
 */
 
 var MyQueue = function () {
-  this.queue = [];
+  this.stack = [];
   this.length = 0;
   this.head = 0;
 };
@@ -32,7 +32,7 @@ var MyQueue = function () {
  */
 MyQueue.prototype.push = function (x) {
   this.length++;
-  this.queue.push(x);
+  this.stack.push(x);
 };
 
 /**
@@ -40,7 +40,7 @@ MyQueue.prototype.push = function (x) {
  * @return {number}
  */
 MyQueue.prototype.pop = function () {
-  let popped = this.queue[this.head];
+  let popped = this.stack[this.head];
   this.head++;
   return popped;
 };
@@ -49,8 +49,8 @@ MyQueue.prototype.pop = function () {
  * Get the front element.
  */
 MyQueue.prototype.peek = function () {
-  console.log("peek ", this.queue[this.head]);
-  return this.queue[this.head];
+  console.log("peek ", this.stack[this.head]);
+  return this.stack[this.head];
 };
 
 /**
