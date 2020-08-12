@@ -4,8 +4,10 @@ These are my interviews practice algos! I try to explain approaches for each pro
 
 | Topic           | Code             |
 | --------------- | ---------------- |
+| Primitives      | [🔢][primitives] |
 | Linked Lists    | [⛓][linked-list] |
 | Stacks & Queues | [🥞][stacks]     |
 
 [linked-list]: linked-lists
 [stacks]: stacks-queues
+[primitives]: primitives
