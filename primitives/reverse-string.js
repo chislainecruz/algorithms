@@ -30,3 +30,6 @@ var reverseString = function (s) {
   }
   return s;
 };
+
+//O(1) space
+// O(n) time
