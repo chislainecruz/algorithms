@@ -7,7 +7,9 @@ These are my interviews practice algos! I try to explain approaches for each pro
 | Primitives      | [🔢][primitives] |
 | Linked Lists    | [⛓][linked-list] |
 | Stacks & Queues | [🥞][stacks]     |
+| Trees           | [🌳][trees]      |
 
 [linked-list]: linked-lists
 [stacks]: stacks-queues
 [primitives]: primitives
+[trees]: trees
