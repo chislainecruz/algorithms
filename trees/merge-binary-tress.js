@@ -39,5 +39,5 @@ var mergeTrees = function (t1, t2) {
   return node;
 };
 
-//O(n + m) time complexity - as many nodes as both the trees passed in
+//O(max(m,n)) time complexity - will process as many nodes as the tallest tree
 //O(max(m,n)) space complexity - the new tree will be as big as the bigger tree passed in
