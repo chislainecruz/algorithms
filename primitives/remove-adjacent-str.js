@@ -26,12 +26,12 @@ Input: s = "pbbcggttciiippooaais", k = 2
 Output: "ps"
 */
 
-//approach: Memoization
+//approach: Memoization **
 //keep track of the frequency of the letters in the count array
 //iterate over the string and check if it's either the first iteration OR if the letter we are on is the same as the previous one, make the count 1
-//otherwise, it means it is equal to the one right befire, so increment the count
+//otherwise, it means it is equal to the one right before, so increment the count
 //and since we're incrementing it, check if the count is the same as our k
-//because if so, delete that out of our string.
+//if so, delete that out of our string.
 //now let's go back to the index right before the deletion to re-evaluate
 //if we reach the end, return the string
 var removeDuplicates = function (s, k) {
