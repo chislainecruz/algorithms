@@ -21,6 +21,8 @@ Output:
 Constraints
 Each element in the result must be unique.
 */
+
+//Two pointers approach. Take advantage of the fact both arrays are sorted and move up or down each array based on their differences in value
 const intersection = (nums1, nums2) => {
   let point1 = 0;
   let point2 = 0;
@@ -39,3 +41,6 @@ const intersection = (nums1, nums2) => {
   }
   return answer;
 };
+
+//O(max(n, m)) time complexity - will take as long as the longest array
+//O(min(n,m)) space complexity
