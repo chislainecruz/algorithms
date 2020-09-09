@@ -8,8 +8,10 @@ These are my interviews practice algos! I try to explain approaches for each pro
 | Linked Lists    | [⛓][linked-list] |
 | Stacks & Queues | [🥞][stacks]     |
 | Trees           | [🌳][trees]      |
+| Search          | [🔍][search]     |
 
 [linked-list]: linked-lists
 [stacks]: stacks-queues
 [primitives]: primitives
 [trees]: trees
+[search]: search
